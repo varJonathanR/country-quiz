@@ -40,7 +40,7 @@ button {
   justify-content: space-between;
   color: var(--gray);
   font-size: 1rem;
-  border: 2px solid var(--gray);
+  border: 1px solid var(--gray);
   background-color: transparent;
   cursor: pointer;
   outline: none;

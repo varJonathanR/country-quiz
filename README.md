@@ -2,6 +2,8 @@
 
 <div align="center">
   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. <br>
+  
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/1f4beb4d-2de4-45d6-a2ff-ebe9958383e6/deploy-status)](https://app.netlify.com/sites/country-quiz-varjonathanr/deploys)
 </div>
 
 <div align="center">
@@ -35,8 +37,6 @@
 ## Overview
 
 ![Country Quiz Preview](https://github.com/varJonathanR/country-quiz/blob/main/public/country-quiz_preview.png)
-
-This project has marked a before and after in my learning process. It was very challenging, and I learned to improve how I share state information between my components, as well as how to optimize my code to avoid repeating functions. I had a lot of fun with this project, and I am very happy that, as I progress, I depend less on external help and am able to think and create my own solutions.
 
 ### Built With
 

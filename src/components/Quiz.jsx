@@ -11,14 +11,14 @@ export default function Quiz() {
         <section className={`questions-container ${isFinished ? "finished" : ""}`}>
             { isFinished ? (
                 <>
-                    <img className='result' src="/src/assets/undraw_winners_ao2o 2.svg" alt="" />
+                    <img className='result' src="/undraw_winners_ao2o 2.svg" alt="Results logo" />
                     <h1>Results</h1>
                     <p>You got <span className='score'>{score}</span> correct {score > 1 || score === 0 ? "answers" : "answer"}</p>
                     <button onClick={() => (window.location.href = "/")}>Try again</button>
                 </>
             ) : (
                 <>
-                    <img className='logo' src="/src/assets/undraw_adventure_4hum 1.svg" alt="Quiz logo" />
+                    <img className='logo' src="/undraw_adventure_4hum 1.svg" alt="Quiz logo" />
                     <QuestionSet score={score} setScore={setScore} setIsFinished={setIsFinished} />
                 </>
             ) }
